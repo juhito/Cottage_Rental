@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+
+    <persistence-unit name="persistenceUnit">
+        <class>com.juhi.cottagerental.Model.CottageEntity</class>
+        <class>com.juhi.cottagerental.Model.ReservationEntity</class>
+        <class>com.juhi.cottagerental.Model.UserEntity</class>
+        <class>com.juhi.cottagerental.Model.UserRoleEntity</class>
+        <class>com.juhi.cottagerental.Model.RolesEntity</class>
+        <class>com.juhi.cottagerental.Model.UserRoleEntity</class>
+        <properties>
+            <property name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/CRental"/>
+            <property name="hibernate.connection.driver_class" value="com.mysql.cj.jdbc.Driver"/>
+        </properties>
+    </persistence-unit>
+</persistence>

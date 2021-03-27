@@ -1,0 +1,47 @@
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: grayscale;
+}
+
+.ui.inverted.vertical.center.aligned.segment {
+    padding-top: 36px;
+}
+
+.ui.inverted.vertical.segment {
+    height: 100vh;
+    background-color: rgb(51, 51, 51);
+}
+
+.ui.content.container {
+    height: 300px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.ui.content.container h1.header {
+    font-size: 36px;
+}
+
+.ui.content.container p {
+    font-size: 21px;
+    line-height: 1.6;
+    font-weight: 300;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.ui.inverted.vertical.segment footer.ui.segment {
+    height: 80px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    color: gray;
+}
+
+.ui.inverted.vertical.segment footer.ui.segment a {
+    color: white;
+}
+
