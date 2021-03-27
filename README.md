@@ -1,2 +1,8 @@
 # Cottage Rental Webapp
-Basic Java Webapp made with **Java** and **Spring Boot**.
+Basic Cottage Rental webapp made with **Java**.
+
+# Technologies
+- Java
+- Spring Boot
+- MySQL
+- HTML/CSS/JS
