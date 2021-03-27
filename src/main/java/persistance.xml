@@ -5,7 +5,6 @@
         <class>com.juhi.cottagerental.Model.CottageEntity</class>
         <class>com.juhi.cottagerental.Model.ReservationEntity</class>
         <class>com.juhi.cottagerental.Model.UserEntity</class>
-        <class>com.juhi.cottagerental.Model.UserRoleEntity</class>
         <class>com.juhi.cottagerental.Model.RolesEntity</class>
         <class>com.juhi.cottagerental.Model.UserRoleEntity</class>
         <properties>
