@@ -89,7 +89,6 @@ public class CottageController {
             return "redirect:/cottages/{cottageId}";
         }
         try {
-
             CottageEntity cottage = cottageRepository.findById(Integer.parseInt(id)).orElse(null);
             List<ReservationEntity> reservation = reservationRepository.findByCottageByCottageId(cottage);
 
@@ -104,7 +103,6 @@ public class CottageController {
                     }
                 }
             }
-
 
             reservationData.setUserId(userRepository.findByUsername(user.getUsername()).getUserId());
             reservationData.setCottageId(Integer.parseInt(id));
